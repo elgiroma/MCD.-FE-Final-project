@@ -5,13 +5,13 @@ import plotly.express as px
 
 
 st.set_page_config(
-    page_title="FE. Final Project",
+    page_title="MCD. Ingeniería de características. Proyecto final
     layout="wide",
 )
 
-st.title("MCD. Feature Engineering. Final Project.")
+st.title("MCD. Ingeniería de características. Proyecto final")
 
-st.sidebar.success('Elige página')
+# st.sidebar.success('Elige página')
 
 st.subheader(
     "Relación del número de crimenes en los municipios del estado de Sonora con el presupuesto dado a la educación pública de Sonora."
@@ -38,8 +38,8 @@ municipality = municipality["index"].to_numpy()
 with col1:
 
     # Choosing municipality
-    chosen_municipality = st.selectbox("Select municipality", municipality)
-    st.write("Chosen city:", chosen_municipality)
+    chosen_municipality = st.selectbox("Selecciona algún municipio.", municipality)
+#     st.write("Chosen city:", chosen_municipality)
 
     # dataframe of chosen municipality
     df_municipality = df[df.Municipality == chosen_municipality]
