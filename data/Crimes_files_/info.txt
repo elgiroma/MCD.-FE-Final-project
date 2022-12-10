@@ -1,0 +1,8 @@
+Información sobre crimes_file.csv
+        Seguridad Pública de México.
+        Muestra el número de crímenes que se han cometido en los diferentes municipios del Estado
+        de Sonora entre los años 2015 - 2022.
+        
+Descargado el 2022-12-10 09:35:38
+Desde: https://api.datamexico.org/tesseract/data.csv?State=26&Year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021&cube=sesnsp_crimes&drilldowns=Municipality%2CYear&locale=es&measures=Value
+Nombre: crimes_file.csv
