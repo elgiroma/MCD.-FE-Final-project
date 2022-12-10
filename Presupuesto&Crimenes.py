@@ -119,7 +119,7 @@ st.subheader(
 )
 
 st.subheader(
-    "Correlación entre presupuesto a la educación pública de Sonora y el número de crímenes: {} ".format(str(correlation_matrix.iloc[1, 0])
+    "Correlación entre presupuesto a la educación pública de Sonora y el número de crímenes: {} ".format(str(correlation_matrix.iloc[3, 0])
                                                                                                         )
 )
 
