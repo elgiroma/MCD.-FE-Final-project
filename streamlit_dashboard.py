@@ -52,7 +52,7 @@ with col1:
         y= "amount_executed"
     )
     fig.update_layout(
-        title="amount_executed over the years en Sonora",
+        title="amount_executed over the years in Sonora",
         xaxis_title="Years",
         yaxis_title="Amount executed",
     )
