@@ -109,7 +109,7 @@ with col2:
     
     
 st.subheader(
-    "En el municipio de {} hay una correlación del {}".format(
+    "En el municipio de {} hay una correlación del {} entre el presupuesto a la educación pública de Sonora y el número de crímenes".format(
         chosen_municipality, str(correlation_matrix.iloc[1, -1])
     )
 )
