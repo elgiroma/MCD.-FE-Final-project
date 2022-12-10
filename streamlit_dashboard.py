@@ -106,4 +106,12 @@ with col2:
     correlation_matrix = df_municipality.corr()
     fig = px.imshow(correlation_matrix, color_continuous_scale=px.colors.sequential.Blues)
     st.plotly_chart(fig, use_container_width=True)
+    
+    
+st.subheader(
+    "En el municipio de {} hay una correlación del {}% entre el presupuesto del estado y la cantidad de alumnos de educación superior matriculados".format(
+        chosen_municipality, str(correlation_matrix.iloc[0, -1])
+    )
+)
+
 
