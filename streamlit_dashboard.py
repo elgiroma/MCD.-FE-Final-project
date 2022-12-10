@@ -103,8 +103,8 @@ with col2:
     # -----------------------------------------------------------------------------------------------
 
     # correlation matrix
-    df_municipality.reset_index(drop=True, inplace=True)
     correlation_matrix = df_municipality.corr()
+    correlation_matrix.reset_index(drop=True, inplace=True)
     fig = px.imshow(correlation_matrix, color_continuous_scale=px.colors.sequential.Blues)
     st.plotly_chart(fig, use_container_width=True)
     
