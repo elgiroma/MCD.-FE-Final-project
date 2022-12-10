@@ -22,7 +22,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/elgiroma/MCD.-FE-Final-proje
 
 df["Municipality"].value_counts().reset_index().to_csv("cities_df.csv")
 municipality = pd.read_csv("./cities_df.csv")
-municipality = municipality["index"].to_numpy()
+municipality = municipality["index"].to_numpy().sort()
 
 # ********************************************************************************************************************************************
 # ********************************************************************************************************************************************
