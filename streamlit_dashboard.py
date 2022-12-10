@@ -18,7 +18,7 @@ col1, col2 = st.columns(2)
 
 
 # dataframe
-df = pd.read_csv('https://raw.githubusercontent.com/elgiroma/MCD.-FE-Final-project/main/data_final/final_df.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/elgiroma/MCD.-FE-Final-project/main/data_final/final_df.csv').reset_index(drop=True)
 
 df["Municipality"].value_counts().reset_index().to_csv("cities_df.csv")
 municipality = pd.read_csv("./cities_df.csv")
