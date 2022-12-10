@@ -16,4 +16,4 @@ Los datos fueron obtenidos de datamexico.org. Se usaron los datos de gasto públ
 # Dashboard.
 Se hizo un dashboard interactivo simple con streamlit en donde hay varias gráficas en donde se muestra la cantidad de presupuesto a la educación pública de Sonora a través de los años, la cantidad de número de crímenes en el municipio de Sonora seleccionado a través de los años, otra gráfica en donde se muestra como aumenta o baja el número de crímenes conforme se al presupuesto y finalmente una matriz de relación entre el número de crímenes y el presupuesto a la educación pública de Sonora.
 
-Dashboard: https://elgiroma-mcd--fe-final-project-streamlit-dashboard-757r8d.streamlit.app
+Dashboard: https://elgiroma-mcd--fe-final-project-streamlit-app-p2bmm1.streamlit.app
