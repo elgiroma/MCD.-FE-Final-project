@@ -21,6 +21,7 @@ col1, col2 = st.columns(2)
 df = pd.read_csv('https://raw.githubusercontent.com/elgiroma/MCD.-FE-Final-project/main/data_final/final_df.csv')
 
 df["Municipality"].value_counts().reset_index().to_csv("cities_df.csv")
+df = df.drop("Unnamed: 0", axis=1)
 municipality = pd.read_csv("./cities_df.csv")
 municipality = municipality["index"].to_numpy()
 municipality = sorted(municipality)
