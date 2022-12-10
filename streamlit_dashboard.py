@@ -92,7 +92,7 @@ with col2:
     # -----------------------------------------------------------------------------------------------
 
     # Plotting number of crimes as more amount of money was executed
-    fig = px.bar(
+    fig = px.line(
         df_municipality,
         x= "amount_executed",
         y= "number_crimes"
