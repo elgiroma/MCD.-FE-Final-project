@@ -2,6 +2,8 @@
 
 Maestria en Ciencia de Datos.
 Ingeniería en características.
+Eliud Gilberto Rodríguez Martínez.
+
 
 # Descripción.
 Este es un proyecto para la materia de Ingeniería en características de la maestría en ciencia de datos (MCD) de la universidad de Sonora.
