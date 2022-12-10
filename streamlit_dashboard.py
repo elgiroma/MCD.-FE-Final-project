@@ -18,7 +18,7 @@ col1, col2 = st.columns(2)
 
 
 # dataframe
-df = pd.read_csv('https://raw.githubusercontent.com/elgiroma/MCD.-FE-Final-project/main/data_final/final_df.csv').reset_index(drop=True)
+df = pd.read_csv('https://raw.githubusercontent.com/elgiroma/MCD.-FE-Final-project/main/data_final/final_df.csv')
 
 df["Municipality"].value_counts().reset_index().to_csv("cities_df.csv")
 municipality = pd.read_csv("./cities_df.csv")
@@ -103,7 +103,7 @@ with col2:
     # -----------------------------------------------------------------------------------------------
 
     # correlation matrix
-    correlation_matrix = df_municipality.corr()
+    correlation_matrix = df_municipality.corr().reset_index(drop=True)
     fig = px.imshow(correlation_matrix, color_continuous_scale=px.colors.sequential.Blues)
     st.plotly_chart(fig, use_container_width=True)
     
