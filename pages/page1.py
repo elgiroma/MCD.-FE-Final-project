@@ -116,7 +116,7 @@ with col2:
         xaxis_title="Presupuesto a educación pública en Sonora",
         yaxis_title="Salario mensual promedio",
     )
-
+    st.plotly_chart(fig, use_container_width=True)
 
 
     
