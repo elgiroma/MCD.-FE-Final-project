@@ -94,7 +94,7 @@ with col2:
         y= "number_crimes"
     )
     fig.update_layout(
-        title="Number of crimes over the years",
+        title="Number of crimes as more amount of money was executed",
         xaxis_title="Amount executed",
         yaxis_title="Number of crimes",
     )
