@@ -27,9 +27,7 @@ df["Municipality"].value_counts().reset_index().to_csv("cities_df.csv")
 df = df.drop("Unnamed: 0", axis=1)
 municipality = pd.read_csv("./cities_df.csv")
 municipality = municipality["index"].to_numpy()
-municipality = sorted(municipality)
-municipality.remove('San Javier')
-municipality.insert(0,'San Javier')
+
 
 # ********************************************************************************************************************************************
 # ********************************************************************************************************************************************
