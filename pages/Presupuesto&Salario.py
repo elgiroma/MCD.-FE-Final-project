@@ -5,12 +5,13 @@ import plotly.express as px
 
 
 
+
 # st.set_page_config(
 #     page_title="FE. Final Project",
 #     layout="wide",
 # )
 
-st.title("MCD. Feature Engineering. Final Project.")
+st.title("MCD. Ingeniería de características. Proyecto final")
 
 st.subheader(
     "Relación entre presupuesto a la educación pública del estado de Sonora y Salario promedio mensual."
@@ -39,8 +40,7 @@ municipality = municipality["index"].to_numpy()
 with col1:
 
     # Choosing municipality
-    chosen_municipality = st.selectbox("Select municipality", municipality)
-    st.write("Chosen city:", chosen_municipality)
+    chosen_municipality = st.selectbox("Selecciona algún municipio.", municipality)
 
     # dataframe of chosen municipality
     df_municipality = df[df.Municipality == chosen_municipality]
@@ -122,7 +122,10 @@ with col2:
     
     
 # st.subheader(
-#     "En el municipio de {} hay una correlación del {} entre el presupuesto a la educación pública de Sonora y el número de crímenes".format(
-#         chosen_municipality, str(correlation_matrix.iloc[1, 0])
-#     )
+#     "Municipio: {}.".format(chosen_municipality)
+# )
+
+# st.subheader(
+#     "Correlación entre presupuesto a la educación pública de Sonora y el número de crímenes: {} ".format(str(correlation_matrix.iloc[3, 0])
+#                                                                                                         )
 # )
