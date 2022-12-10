@@ -1,7 +1,6 @@
 # MCD.-FE-Final-project
 MCD. FE Final project
 
-
 # Descripción.
 Este es un proyecto para la materia de Ingeniería en características de la maestría en ciencia de datos (MCD) de la universidad de Sonora.
 En este proyecto se busca ver si se puede apreciar alguna relación entre el presupuesto que se le da a la educación pública del Estado de Sonora con el número de crímenes que hay en los municipios de esta misma. Al ver esto, podremos apreciar en que municipios suele bajar el número de crímenes conforme más dinero se invierta a la educación pública.
