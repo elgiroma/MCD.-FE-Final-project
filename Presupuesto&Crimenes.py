@@ -115,9 +115,16 @@ with col2:
     
     
 st.subheader(
-    "Municipio: {}. Correlación entre presupuesto a la educación pública de Sonora y el número de crímenes: {} ".format(
-        chosen_municipality, str(correlation_matrix.iloc[1, 0])
-    )
+    "Municipio: {}.".format(chosen_municipality)
 )
+
+st.subheader(
+    "Correlación entre presupuesto a la educación pública de Sonora y el número de crímenes: {} ".format(str(correlation_matrix.iloc[1, 0])
+                                                                                                        )
+)
+
+
+
+
 
 
