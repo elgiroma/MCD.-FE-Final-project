@@ -5,7 +5,7 @@ import plotly.express as px
 
 
 st.set_page_config(
-    page_title="MCD. Ingeniería de características. Proyecto final
+    page_title="MCD. Ingeniería de características. Proyecto final",
     layout="wide",
 )
 
