@@ -1,5 +1,7 @@
-# MCD.-FE-Final-project
-MCD. FE Final project
+# MCD. Feature Engineering. Final Project
+
+Maestria en Ciencia de Datos.
+Ingeniería en características.
 
 # Descripción.
 Este es un proyecto para la materia de Ingeniería en características de la maestría en ciencia de datos (MCD) de la universidad de Sonora.
